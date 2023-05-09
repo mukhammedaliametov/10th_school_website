@@ -48,12 +48,16 @@
       }
     }
   }
+  .navbar.active{
+    position: fixed;
+    top: 0;
+  }
   .navbar{
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 50px;
+    padding: 17px 50px;
     background-color: #1F73CF;
     .logo{
       padding: 0px 10px;
@@ -70,8 +74,7 @@
           margin: 10px 15px;
           text-decoration: none;
           &:hover{
-            border-bottom: 5px solid #fff;
-            padding-bottom: 30px;
+            text-decoration: underline;
           }
         }
       }
@@ -101,7 +104,7 @@
           transition: .5s ease-in-out;
         }
         .nav.active{
-          height: 60vh;
+          height: 65vh;
           padding: 30px 50px;
           li{
             display: block;
