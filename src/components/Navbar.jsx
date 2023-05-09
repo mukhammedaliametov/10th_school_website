@@ -12,7 +12,7 @@ const Navbar = () => {
   var sticky = navbar.offsetTop;
 
   const changeBackground = () => {
-    if(window.scrollY >= sticky){
+    if(window.scrollY >= 50){
       setNavbar(true)
     }else{
       setNavbar(false)
@@ -80,7 +80,7 @@ const Navbar = () => {
               <i class="fa-solid fa-book-open-reader"></i> Oquvchilar Soni
             </Link>
           </li>
-          <li onClick={closeMobileMenu}>
+          <li onClick={closeMobileMenu} className="border-b">
             <Link to='/contact'>
               <i class="fa-solid fa-address-book"></i> Aloqa
             </Link>
