@@ -1,61 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
-.home{
-    background-image: url(../../assets/hero-bg.jpg);
-    background-size: cover;
-    min-height: 100vh;
-    width: 100%;
-    box-shadow: inset 0 0 0 1000px #00000077;
-    background-attachment: fixed;
-    &-title{
-        color: #fff;
-        padding-top: 200px;
-        padding-left: 100px;
-        width: 55%;
-        h1{
-            font-size: 2.5rem;
-            font-family: 'Questrial', sans-serif;
-            padding: 10px 0px;
-        }
-        p{
-            font-size: 1.1rem;
-            padding: 0px 8px;
-            margin-bottom: 25px;
-        }
-        a{
-            color: #fff;
-            text-decoration: none;
-            margin: 80px 10px;
-            padding: 15px 30px;
-            border-radius: 20px;
-            background-color: #0000003a;
-            border: 2px solid #fff;
-            &:hover{
-                padding: 17px 32px;
-                border: none;
-                background-color: #1F73CF;
-            }
-        }
+.home {
+  background-image: url(../../assets/hero-bg.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px #00000077;
+  background-attachment: fixed;
+  &-title {
+    color: #fff;
+    padding-top: 200px;
+    padding-left: 100px;
+    width: 55%;
+    h1 {
+      font-size: 2.5rem;
+      font-family: "Questrial", sans-serif;
+      padding: 10px 0px;
     }
-    @media only screen and (max-width: 1190px){
-        &{
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            &-title{
-                width: 100%;
-                padding: 150px 20px;
-                h1{
-                    font-size: 2rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    margin-bottom: 34px;
-                }
-                a{
-                    padding: 17px 20px;
-                }
-            }
-        }
+    p {
+      font-size: 1.1rem;
+      padding: 0px 8px;
+      margin-bottom: 25px;
     }
+    a {
+      color: #fff;
+      text-decoration: none;
+      margin: 80px 10px;
+      padding: 15px 30px;
+      border-radius: 20px;
+      background-color: #0000003a;
+      border: 2px solid #fff;
+      &:hover {
+        padding: 17px 32px;
+        border: none;
+        background-color: #1f73cf;
+      }
+    }
+  }
+  @media only screen and (max-width: 1190px) {
+    & {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      &-title {
+        width: 100%;
+        padding: 150px 20px;
+        h1 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.2rem;
+          margin-bottom: 34px;
+        }
+        a {
+          padding: 17px 20px;
+        }
+      }
+    }
+  }
+}
+.home-items {
+  min-height: 100vh;
+  .cards {
+    padding: 60px 90px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+    .card {
+      border: 1px solid #000;
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      .card-head {
+        img {
+          width: 100%;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+      }
+      .card-body {
+        border-bottom: 1px solid #000;
+        margin: 0px 10px;
+        margin-bottom: 20px;
+        h1 {
+          font-size: 1.5rem;
+          padding: 10px;
+        }
+        p {
+          padding: 10px 0px;
+          border-top: 1px solid #000;
+          margin: 10px 10px;
+        }
+        a {
+          text-decoration: none;
+          padding: 10px;
+          margin: 0px 10px;
+          background-color: #1f73cf;
+          color: #fff;
+          border-radius: 5px;
+        }
+      }
+      .card-end{
+        padding: 7px 20px;
+        display: flex;
+        justify-content: space-between;
+        span{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1190px){
+    &{
+      padding: 0px;
+      .cards{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+      }
+    }
+  }
 }
