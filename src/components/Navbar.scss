@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat+Alternates&family=Ubuntu:wght@300&display=swap');
+
+.navigation {
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  width: 100%;
+
+  .nav-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E2E60;
+    padding: 15px 20px;
+
+    .nav-head-contact {
+      padding: 0;
+      a{
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+      }
+    }
+    .nav-head-networks{
+      padding: 0;
+      a{
+        color: #fff;
+        font-size: 1.1rem;
+        margin: 5px 10px;
+      }
+    }
+    @media only screen and (max-width: 1190px){
+      &{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        .nav-head-contact{
+          text-align: center;
+          padding: 10px 5px;
+          display: flex;
+          border-bottom: 1px solid #fff;
+          flex-direction: column;
+        }
+        .nav-head-networks{
+          padding-bottom: 3px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .navbar{
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #1F73CF;
+    .logo{
+      padding: 0px 10px;
+      color: #fff;   
+      cursor: pointer;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .nav{
+      display: flex;
+      li{
+        list-style-type: none;
+        a{
+          color: #fff;
+          margin: 10px 15px;
+          text-decoration: none;
+          &:hover{
+            border-bottom: 5px solid #fff;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 1190px){
+      &{
+        padding: 20px 30px;
+        .logo{
+          padding: 0;
+          img{
+            width: 80%;
+            top: 117px;
+            padding-left: 20px;
+          }
+        }
+        .nav{
+          position: absolute;
+          flex-direction: column;
+          background-color: #1F73CF;
+          width: 100%;
+          top: 180px;
+          height: 0vh;
+          left: 0;
+          li{
+            display: none;
+          }
+          transition: .5s ease-in-out;
+        }
+        .nav.active{
+          height: 60vh;
+          padding: 30px 50px;
+          li{
+            display: block;
+            padding: 30px 40px;
+            text-align: center;
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .hamburger{
+    display: none;
+    @media screen and (max-width: 1190px){
+      &{
+        display: block;
+        color: #fff;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
