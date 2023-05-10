@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap");
+
+.about {
+  min-height: 100vh;
+  .first-about {
+    padding: 100px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 50%;
+      border-radius: 20px;
+    }
+    .about-title {
+      width: 100%;
+      padding: 30px 30px;
+      span {
+        padding: 10px 0px;
+        margin: 10px 0px;
+
+        i {
+          color: blue;
+        }
+        b {
+          padding-right: 15px;
+          color: #000000a4;
+        }
+      }
+    }
+  }
+  .second-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    img{
+      width: 50%;
+      border-radius: 20px;
+    }
+    .about-title2{
+      padding: 10px 20px;
+      p{
+        font-size: 1.2rem;
+        color: #0000009a;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1990px){
+    .first-about{
+      flex-direction: column;
+      padding: 50px 0px;
+      img{
+        width: 100%;
+        padding: 10px;
+      }
+      .about-title{
+        width: 100%;
+        padding: 10px;
+      }
+    }
+    .second-about{
+      flex-direction: column;
+      padding: 0;
+      img{
+        width: 100%;
+        padding: 10px;
+      }
+    }
+  }
+}
