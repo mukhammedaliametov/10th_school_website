@@ -1,8 +1,7 @@
 import React from "react";
-import "./About.scss";
 import SectionTitle from "../SectionTitle";
 import AboutImg from "../../assets/about-page-img.jpg";
-import AboutImg2 from "../../assets/about-page-img2.jpg";
+import "./About.scss";
 
 const About = () => {
   return (
@@ -58,17 +57,6 @@ const About = () => {
           </span>
           <br />
         </div>
-      </div>
-      <div className="second-about">
-        <div className="about-title2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magnam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repellat!
-          </p>
-        </div>
-        <img src={AboutImg2} alt="" />
       </div>
     </div>
   );

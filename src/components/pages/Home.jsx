@@ -10,8 +10,8 @@ const Home = () => {
         <div className="home-title">
           <h1>To`rtko`l tumani 10-sonli maktab</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
-            asperiores quas obcaecati sint aliquid ad quo natus.
+            Sifatli talim-tarbiya maktabaning bosh vazifasi.
+            Ushbu web sayt orqali maktab haqida malumotlarni ko'rishingiz mumkun
           </p>
           <Link to="/about">
             <i class="fa-solid fa-circle-info"></i> Biz haqqimizda
@@ -32,8 +32,7 @@ const Home = () => {
                 <div className="card-body">
                   <h1>{item.title}</h1>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Incidunt, mollitia.
+                    {item.about}
                   </p>
                   <a href="">See more</a>
                 </div>
@@ -41,7 +40,7 @@ const Home = () => {
                   <span>
                     <i class="fa-solid fa-eye"></i> {item.view}
                   </span>
-                  <span>❤️ {item.linkes}</span>
+                  <span><i class="fa-regular fa-heart"></i> {item.linkes}</span>
                 </div>
               </div>
             );

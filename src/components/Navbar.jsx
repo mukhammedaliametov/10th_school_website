@@ -70,16 +70,6 @@ const Navbar = () => {
               <i class="fa-solid fa-people-roof"></i> Rahbariyat
             </Link>
           </li>
-          <li onClick={closeMobileMenu}>
-            <Link to='/teachers'>
-              <i class="fa-solid fa-chalkboard-user"></i> O`qituvchilar ro`yhati
-            </Link>
-          </li>
-          <li onClick={closeMobileMenu}>
-            <Link to='/readers'>
-              <i class="fa-solid fa-book-open-reader"></i> Oquvchilar Soni
-            </Link>
-          </li>
           <li onClick={closeMobileMenu} className="border-b">
             <Link to='/contact'>
               <i class="fa-solid fa-address-book"></i> Aloqa

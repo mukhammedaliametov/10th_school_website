@@ -1,0 +1,49 @@
+.contact{
+    .location{
+        text-align: center;
+        img{
+            border-end-end-radius: 20px;
+            border-end-start-radius: 20px;
+        }
+    }
+    .contact-cards{
+        padding: 10px 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        .card{
+            padding: 20px;
+            width: 25%;
+            border-radius: 10px;
+            border: 1px solid #0000008a;
+            i{
+                color: rgba(0, 0, 255, 0.747);
+                font-size: 3rem;
+                padding: 10px;
+            }
+            .card-title{
+                color: blue;
+                font-size: 1.2rem;
+                padding: 10px 0px;
+            }
+            p{
+                color: blue;
+            }
+        }
+    }
+    @media only screen and (max-width: 1190px){
+        &{
+            img{
+                width: 100%;
+            }
+            .contact-cards{
+                flex-direction: column;
+                .card{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

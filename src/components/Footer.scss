@@ -1,0 +1,39 @@
+.footer{
+    text-align: center;
+    background-color: #1F73CF;
+    padding: 30px 0px;
+    &-title{
+        color: #fff;
+        font-size: 1.6rem;
+        padding: 10px;
+        border-bottom: 2px solid #fff;
+        margin: 0px 400px;
+    }
+    .networks{
+        padding: 10px 0px;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5rem;
+            margin-left: 20px;
+        }
+    }
+    span{
+        color: #fff;
+        font-size: 1.1rem;
+        padding: 10px 20px;
+    }
+    a{
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+    @media only screen and (max-width: 1190px){
+        &{
+            &-title{
+                font-size: 1.4rem;
+                margin: 0px;
+            }
+        }
+    }
+}

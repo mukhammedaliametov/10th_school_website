@@ -8,43 +8,43 @@ import Image6 from '../assets/images/card-img-6.jpg'
 export const MenuItems = [
     {
         img: Image1,
-        title: "Aktivlar Zali",
-        about: "Bu zalda maktabdagi har xil bayramlar bo'lib o'tadi.",
+        title: "Kompyuter xonasi",
+        about: "Ushbu joyda informatika va axborot texnologiyalari darsligi bo'lib o'tadi.",
         view: 56,
         linkes: 27
     },
     {
         img: Image2,
-        title: "Aktivlar Zali",
-        about: "Bu zalda maktabdagi har xil bayramlar bo'lib o'tadi.",
+        title: "Sport Zal",
+        about: "Bu joyda har xil sportga tegishli musobaqalar va jismoniy tarbiya fani bo'ladi.",
         view: 34,
         linkes: 14
     },
     {
         img: Image3,
-        title: "Aktivlar Zali",
-        about: "Bu zalda maktabdagi har xil bayramlar bo'lib o'tadi.",
+        title: "Kutubxona",
+        about: "Ushbu kutubxonada xar xil kitoblarni topsangiz bo'ladi bulardan Jahon Adabiyoti, O'zbek Adabiyoti va yana boshqa.",
         view: 45,
         linkes: 31
     },
     {
         img: Image4,
-        title: "Aktivlar Zali",
-        about: "Bu zalda maktabdagi har xil bayramlar bo'lib o'tadi.",
+        title: "Kimyo xonasi",
+        about: "Bu joda kimyo darsi bo'ladi va har xil kimyo faniga tegishli musobaqalar bo'lib o'tadi.",
         view: 32,
         linkes: 12
     },
     {
         img: Image5,
-        title: "Aktivlar Zali",
-        about: "Bu zalda maktabdagi har xil bayramlar bo'lib o'tadi.",
+        title: "Chet tili xonasi",
+        about: "Bu joyda chet tili darsligi bo'ladi va chet tili faniga oid to'garaklarham mavjud. ",
         view: 67,
         linkes: 45
     },
     {
         img: Image6,
-        title: "Aktivlar Zali",
-        about: "Bu zalda maktabdagi har xil bayramlar bo'lib o'tadi.",
+        title: "Tarix xonasi",
+        about: "Ushbu joyda tarix darsligi bo'ladi va tarix faniga oid to'garaklarham bor.",
         view: 63,
         linkes: 51
     },
