@@ -34,7 +34,7 @@ const Home = () => {
                   <p>
                     {item.about}
                   </p>
-                  <a href="/about">Batafsil</a>
+                  <a href="#">Batafsil</a>
                 </div>
                 <div className="card-end">
                   <span>
