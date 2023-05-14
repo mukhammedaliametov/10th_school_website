@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="nav-head">
         <div className="nav-head-contact">
           <a href="">
-            <i class="fa-solid fa-envelope"></i> rusulnurzanov@gmail.com
+            <i class="fa-solid fa-envelope"></i> togtabayevshatlyk@gmail.com
           </a>
           <a href="tel: +998(94)598-07-47">
             <i class="fa-solid fa-phone"></i> +998(94)598-07-47
