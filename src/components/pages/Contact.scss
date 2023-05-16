@@ -35,8 +35,11 @@
     }
     @media only screen and (max-width: 1190px){
         &{
-            img{
-                width: 100%;
+            .location{
+                text-align: center;
+                img{
+                    width: 100%;
+                }
             }
             .contact-cards{
                 flex-direction: column;
