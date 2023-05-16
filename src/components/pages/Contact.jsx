@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="card">
           <i class="fa-solid fa-envelope"></i>
           <p className="card-title">Pochta manzili</p>
-          <p>rusulnurzanov@gmail.com</p>
+          <p>togtabayevshatlyk@gmail.com</p>
         </div>
       </div>
     </div>
