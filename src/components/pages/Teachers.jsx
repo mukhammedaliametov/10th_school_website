@@ -14,8 +14,10 @@ const Teachers = () => {
               <div className="teacher" key={index}>
                 <span>{item.lessonName}</span>
                 <p>
-                  <i class="fa-solid fa-chalkboard-user"></i> {item.teacherName}
-                </p>
+                  <i class="fa-solid fa-chalkboard-user"></i> {item.teacherName}</p>
+                <p><i class="fa-solid fa-circle-info"></i> {item.info_2}</p>
+                <p><i class="fa-solid fa-circle-info"></i> {item.info_3}</p>
+                <p className="border-b"><i class="fa-solid fa-circle-info"></i> {item.info_4}</p>
               </div>
             </>
           );

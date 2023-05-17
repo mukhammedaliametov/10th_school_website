@@ -1,32 +1,38 @@
-.teachers{
-    min-height: 100vh;
-    .teachers-content{
-        padding: 50px;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        gap: 2rem;
-        .teacher{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            box-shadow: 2px 2px 4px #000000;
-            border-radius: 5px;
-            overflow: hidden;
-            span{
-                font-size: 1.2rem;
-                background-color: blue;
-                padding: 10px 0px;
-                color: #fff;
-            }
-            p{
-                padding: 20px;
-            }
-        }
+.teachers {
+  min-height: 100vh;
+  .teachers-content {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    .teacher {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      box-shadow: 2px 2px 4px #000000;
+      border-radius: 5px;
+      overflow: hidden;
+      span {
+        font-size: 1.2rem;
+        background-color: blue;
+        padding: 10px 0px;
+        color: #fff;
+      }
+      p {
+        padding: 20px;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #000000a9;
+      }
+      .border-b{
+        border-bottom: none;
+      }
     }
-    @media only screen and (max-width: 920px){
-        .teachers-content{
-            grid-template-columns: auto;
-            padding: 50px 30px;
-        }
+  }
+  @media only screen and (max-width: 920px) {
+    .teachers-content {
+      grid-template-columns: auto;
+      padding: 50px 30px;
     }
+  }
 }
