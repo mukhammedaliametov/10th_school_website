@@ -75,6 +75,11 @@ const Navbar = () => {
               <i class="fa-solid fa-chalkboard-user"></i> O'qituvchilar
             </Link>
           </li>
+          <li onClick={closeMobileMenu}>
+            <Link to='/news'>
+              <i class="fa-solid fa-newspaper"></i> Yangiliklar
+            </Link>
+          </li>
           <li onClick={closeMobileMenu} className="border-b">
             <Link to='/contact'>
               <i class="fa-solid fa-address-book"></i> Aloqa
